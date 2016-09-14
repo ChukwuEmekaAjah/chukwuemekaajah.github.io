@@ -1,1 +1,199 @@
-'hi' 
+<!doctype html>
+<html>
+<head> <title> My CSS Framework </title> </head>
+
+<body>
+
+	<style> html { 
+	
+	
+	background: #00baba; 
+	 background-size:100% 100%; 
+	background-repeat:no-repeat;} 
+	
+	
+
+</style>
+
+	<div class='nav-parent'>
+		<div class= 'nav-child-small'> 
+			<span class='nav-child-small-child'> </span> 
+			<span class='nav-child-small-child'> </span> 
+			<span class='nav-child-small-child'> </span> 
+		</div>
+
+		<div class='nav-child'>
+			<ul class='nav-list'>
+				<li class='nav-list-child'> <a href='#' class='nav-list-child-anchor'> Home </a> </li>
+				<li class='nav-list-child'> <a href='#' class='nav-list-child-anchor'> About </a> </li>
+				<li class='nav-list-child'> <a href='#' class='nav-list-child-anchor'> Contact </a> </li>
+				<li class='nav-list-child'> <a href='#' class='nav-list-child-anchor'> Projects </a> </li>
+			</ul>
+		</div>
+
+<div class='main'> <h1 class='main'>
+	<pre> 
+		Somewhere in the cold, 
+I am doing cool things
+with <code>code</code>
+			 </pre></h1> </div>
+
+
+<div>
+	<div > 
+		<div class='fifty'> 
+			<h3 class='down'> About me </h3> <hr />
+			<p> I am Ajah, C.S </p>
+			<p> I am a javascript developer who knows how to leverage Javascript in solving a myriad of problems </p>
+			<p> I code for <em> research </em>, <i> fun </i> and <strong> money </strong> not forgetting causes worth solving with <code>code</code></p>
+
+		</div> 
+		<div class='fifty'>
+			<h3 class='down'>Education</h3> <hr />
+			<p style='font-size:0.5em'> 2018 (Expected)</p>
+			<p> B.Eng in Mechanical Engineering </p>
+			<p>University of Nigeria, Nsukka</p>
+			<p style='font-size:0.5em'> 2018 (Expected)</p>
+			<p> B.Sc in Computer Science </p>
+			<p> University of Self-Schooling</p>
+		 </div>
+	 </div>
+	 <div >
+	 	<div>
+	 		<h3 class='down'>Projects I have embarked on</h3> <hr />
+	 		<div> 
+	 			<h5 class='down'>Bitly</h5> <p class='project down'> A primitive URL shortener service built with NodeJs and ExpressJS. It was built as a challenge to myself </p>
+	 		</div>
+	 		<div>
+	 			<h5 class='down'>Angloparser</h5> <p class='project'> An english language structure parser </p> 
+	 		</div>
+	 	</div>
+	 	
+
+	 </div>
+</div>
+
+<style type="text/css">
+h5{
+	color:#00baba;
+	font-family: 'open sans',sans-serif;
+}
+.fifty{
+	display:inline-block;
+	width:45%;
+	margin:1%;
+
+
+}
+hr{
+	height:5px;
+	background:white;
+	width:50px;
+	margin:none;
+}
+p,h3,h5 {
+	color:white;
+	font-family: 'open sans', sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+}
+.down{
+	color: #595959 ;
+	margin-bottom: none;
+}
+h3{
+	color:#FEF6E4 ;
+}
+h1.main pre{
+	font-family:'open sans',sans-serif;
+	color:white;
+	text-align:center;
+}
+.project{
+	color:#7D9EC0 ;
+}
+	.nav-parent{
+		width:100%;
+		
+		margin:none;
+		margin-bottom:5%;
+		background: transparent;
+		
+	}
+	div.nav-child{
+		margin-left: 25%;
+		margin-right:auto;
+	}
+	ul.nav-list{
+	padding:auto;}
+	
+	li.nav-list-child{
+		display:inline;
+		margin:5%;
+		padding:0.2%;
+		font-family: 'open sans',sans-serif;
+		font-size:1em;
+		color:white;
+		text-align:center;
+	}
+	a.nav-list-child-anchor{
+		text-decoration:none;
+		color:white;
+	}
+	
+	@media screen and (max-width:850px){
+
+	li.nav-list-child{
+		margin:3%;
+	}
+}
+@media screen and (max-width:700px){
+
+	li.nav-list-child{
+		margin:2%;
+	}
+}
+@media screen and (max-width:650px){
+
+	div.nav-child{
+		visibility:hidden;
+	}
+	div.nav-child-small{
+	height:auto;
+	margin:3%;
+	
+	padding:1%;
+	clear:left;
+	position: relative;
+	top:0.1%;
+	left:0.1%;
+	}
+	.nav-parent{
+	height:40px;}
+	 span.nav-child-small-child {
+		width:15%;
+		
+		background:#00baba;
+		color:black;
+		display:block;
+		margin: 3%;
+		padding:0.5%;
+	}
+}
+div > h1{
+	font-family: 'open sans, serif';
+	font-size:3em;
+	color:black;
+	text-align: center;
+	
+	
+	
+
+}
+
+</style>
+
+
+
+</body>
+</html>
